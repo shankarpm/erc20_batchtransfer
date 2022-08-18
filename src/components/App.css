@@ -1,0 +1,67 @@
+/* Styles go here */
+
+.padding50{
+    padding: 50px 20px;
+}
+
+.table-cell{
+    display: table-cell;
+}
+.vetical-align-middle{
+    vertical-align: middle;
+}
+
+.description ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.description ul li span{
+  float: right;
+}
+
+.description ul li button{
+  margin: 5px;
+}
+
+.loaderScreen{
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    background: rgb(128 128 128 / 40%);
+    position: fixed;
+    z-index: 9;
+}
+
+.loaderScreen span{
+    font-size: 28px;
+    position: relative;
+    top: 50%;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+.loader {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 10px solid orange;
+    border-top-color: #002147;
+    box-sizing: border-box;
+    background: transparent;
+    animation: loading 1s linear infinite;
+    left: calc(50% - 2.5rem);
+    top: calc(50% - 2.5rem);
+    position: absolute;
+  }
+  
+  @keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    0% {
+      transform: rotate(360deg);
+    }
+  }
